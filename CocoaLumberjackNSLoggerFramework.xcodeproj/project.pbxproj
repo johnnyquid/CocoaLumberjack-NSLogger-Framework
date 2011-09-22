@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7B9B81F142BACBC00F35DFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B9B81E142BACBC00F35DFE /* Foundation.framework */; };
+		A7B9B825142BACBC00F35DFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7B9B823142BACBC00F35DFE /* InfoPlist.strings */; };
+		A7B9B83E142BAD3E00F35DFE /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B9B82D142BAD3E00F35DFE /* DDAbstractDatabaseLogger.h */; };
+		A7B9B83F142BAD3E00F35DFE /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B9B82E142BAD3E00F35DFE /* DDAbstractDatabaseLogger.m */; };
+		A7B9B840142BAD3E00F35DFE /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B9B82F142BAD3E00F35DFE /* DDASLLogger.h */; };
+		A7B9B841142BAD3E00F35DFE /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B9B830142BAD3E00F35DFE /* DDASLLogger.m */; };
+		A7B9B842142BAD3E00F35DFE /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B9B831142BAD3E00F35DFE /* DDFileLogger.h */; };
+		A7B9B843142BAD3E00F35DFE /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B9B832142BAD3E00F35DFE /* DDFileLogger.m */; };
+		A7B9B844142BAD3E00F35DFE /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B9B833142BAD3E00F35DFE /* DDLog.h */; };
+		A7B9B845142BAD3E00F35DFE /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B9B834142BAD3E00F35DFE /* DDLog.m */; };
+		A7B9B846142BAD3E00F35DFE /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B9B835142BAD3E00F35DFE /* DDTTYLogger.h */; };
+		A7B9B847142BAD3E00F35DFE /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B9B836142BAD3E00F35DFE /* DDTTYLogger.m */; };
+		A7B9B848142BAD3E00F35DFE /* LoggerClient.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B9B838142BAD3E00F35DFE /* LoggerClient.h */; };
+		A7B9B849142BAD3E00F35DFE /* LoggerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B9B839142BAD3E00F35DFE /* LoggerClient.m */; };
+		A7B9B84A142BAD3E00F35DFE /* LoggerCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B9B83A142BAD3E00F35DFE /* LoggerCommon.h */; };
+		A7B9B84B142BAD3E00F35DFE /* DDNSLoggerLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B9B83C142BAD3E00F35DFE /* DDNSLoggerLogger.h */; };
+		A7B9B84C142BAD3E00F35DFE /* DDNSLoggerLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B9B83D142BAD3E00F35DFE /* DDNSLoggerLogger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7B9B81B142BACBC00F35DFE /* CocoaLumberjackNSLoggerFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = CocoaLumberjackNSLoggerFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7B9B81E142BACBC00F35DFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7B9B822142BACBC00F35DFE /* CocoaLumberjackNSLoggerFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaLumberjackNSLoggerFramework-Info.plist"; sourceTree = "<group>"; };
+		A7B9B824142BACBC00F35DFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7B9B826142BACBC00F35DFE /* CocoaLumberjackNSLoggerFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjackNSLoggerFramework-Prefix.pch"; sourceTree = "<group>"; };
+		A7B9B82D142BAD3E00F35DFE /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		A7B9B82E142BAD3E00F35DFE /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		A7B9B82F142BAD3E00F35DFE /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		A7B9B830142BAD3E00F35DFE /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		A7B9B831142BAD3E00F35DFE /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		A7B9B832142BAD3E00F35DFE /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		A7B9B833142BAD3E00F35DFE /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		A7B9B834142BAD3E00F35DFE /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		A7B9B835142BAD3E00F35DFE /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		A7B9B836142BAD3E00F35DFE /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		A7B9B838142BAD3E00F35DFE /* LoggerClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggerClient.h; sourceTree = "<group>"; };
+		A7B9B839142BAD3E00F35DFE /* LoggerClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoggerClient.m; sourceTree = "<group>"; };
+		A7B9B83A142BAD3E00F35DFE /* LoggerCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggerCommon.h; sourceTree = "<group>"; };
+		A7B9B83C142BAD3E00F35DFE /* DDNSLoggerLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDNSLoggerLogger.h; sourceTree = "<group>"; };
+		A7B9B83D142BAD3E00F35DFE /* DDNSLoggerLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDNSLoggerLogger.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7B9B816142BACBC00F35DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B9B81F142BACBC00F35DFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7B9B80D142BACBB00F35DFE = {
+			isa = PBXGroup;
+			children = (
+				A7B9B820142BACBC00F35DFE /* CocoaLumberjackNSLoggerFramework */,
+				A7B9B81D142BACBC00F35DFE /* Frameworks */,
+				A7B9B81C142BACBC00F35DFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7B9B81C142BACBC00F35DFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7B9B81B142BACBC00F35DFE /* CocoaLumberjackNSLoggerFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7B9B81D142BACBC00F35DFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7B9B81E142BACBC00F35DFE /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7B9B820142BACBC00F35DFE /* CocoaLumberjackNSLoggerFramework */ = {
+			isa = PBXGroup;
+			children = (
+				A7B9B82C142BAD3E00F35DFE /* CocoaLumberjack */,
+				A7B9B837142BAD3E00F35DFE /* NSLogger */,
+				A7B9B83B142BAD3E00F35DFE /* NSLogger-CocoaLumberjack-connector */,
+				A7B9B821142BACBC00F35DFE /* Config */,
+			);
+			path = CocoaLumberjackNSLoggerFramework;
+			sourceTree = "<group>";
+		};
+		A7B9B821142BACBC00F35DFE /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				A7B9B822142BACBC00F35DFE /* CocoaLumberjackNSLoggerFramework-Info.plist */,
+				A7B9B823142BACBC00F35DFE /* InfoPlist.strings */,
+				A7B9B826142BACBC00F35DFE /* CocoaLumberjackNSLoggerFramework-Prefix.pch */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		A7B9B82C142BAD3E00F35DFE /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				A7B9B82D142BAD3E00F35DFE /* DDAbstractDatabaseLogger.h */,
+				A7B9B82E142BAD3E00F35DFE /* DDAbstractDatabaseLogger.m */,
+				A7B9B82F142BAD3E00F35DFE /* DDASLLogger.h */,
+				A7B9B830142BAD3E00F35DFE /* DDASLLogger.m */,
+				A7B9B831142BAD3E00F35DFE /* DDFileLogger.h */,
+				A7B9B832142BAD3E00F35DFE /* DDFileLogger.m */,
+				A7B9B833142BAD3E00F35DFE /* DDLog.h */,
+				A7B9B834142BAD3E00F35DFE /* DDLog.m */,
+				A7B9B835142BAD3E00F35DFE /* DDTTYLogger.h */,
+				A7B9B836142BAD3E00F35DFE /* DDTTYLogger.m */,
+			);
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		A7B9B837142BAD3E00F35DFE /* NSLogger */ = {
+			isa = PBXGroup;
+			children = (
+				A7B9B838142BAD3E00F35DFE /* LoggerClient.h */,
+				A7B9B839142BAD3E00F35DFE /* LoggerClient.m */,
+				A7B9B83A142BAD3E00F35DFE /* LoggerCommon.h */,
+			);
+			path = NSLogger;
+			sourceTree = "<group>";
+		};
+		A7B9B83B142BAD3E00F35DFE /* NSLogger-CocoaLumberjack-connector */ = {
+			isa = PBXGroup;
+			children = (
+				A7B9B83C142BAD3E00F35DFE /* DDNSLoggerLogger.h */,
+				A7B9B83D142BAD3E00F35DFE /* DDNSLoggerLogger.m */,
+			);
+			path = "NSLogger-CocoaLumberjack-connector";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A7B9B817142BACBC00F35DFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B9B83E142BAD3E00F35DFE /* DDAbstractDatabaseLogger.h in Headers */,
+				A7B9B840142BAD3E00F35DFE /* DDASLLogger.h in Headers */,
+				A7B9B842142BAD3E00F35DFE /* DDFileLogger.h in Headers */,
+				A7B9B844142BAD3E00F35DFE /* DDLog.h in Headers */,
+				A7B9B846142BAD3E00F35DFE /* DDTTYLogger.h in Headers */,
+				A7B9B848142BAD3E00F35DFE /* LoggerClient.h in Headers */,
+				A7B9B84A142BAD3E00F35DFE /* LoggerCommon.h in Headers */,
+				A7B9B84B142BAD3E00F35DFE /* DDNSLoggerLogger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A7B9B81A142BACBC00F35DFE /* CocoaLumberjackNSLoggerFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7B9B829142BACBC00F35DFE /* Build configuration list for PBXNativeTarget "CocoaLumberjackNSLoggerFramework" */;
+			buildPhases = (
+				A7B9B814142BACBC00F35DFE /* ShellScript */,
+				A7B9B815142BACBC00F35DFE /* Sources */,
+				A7B9B816142BACBC00F35DFE /* Frameworks */,
+				A7B9B817142BACBC00F35DFE /* Headers */,
+				A7B9B818142BACBC00F35DFE /* Resources */,
+				A7B9B819142BACBC00F35DFE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaLumberjackNSLoggerFramework;
+			productName = CocoaLumberjackNSLoggerFramework;
+			productReference = A7B9B81B142BACBC00F35DFE /* CocoaLumberjackNSLoggerFramework.framework */;
+			productType = "com.apple.product-type.framework.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7B9B80F142BACBB00F35DFE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A7B9B812142BACBB00F35DFE /* Build configuration list for PBXProject "CocoaLumberjackNSLoggerFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7B9B80D142BACBB00F35DFE;
+			productRefGroup = A7B9B81C142BACBC00F35DFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7B9B81A142BACBC00F35DFE /* CocoaLumberjackNSLoggerFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7B9B818142BACBC00F35DFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B9B825142BACBC00F35DFE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A7B9B814142BACBC00F35DFE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n\tUFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version  from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n  ([[ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]] || \\\n    ([[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n     [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n     [[ ! \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\n    )\n  )\nthen\n    exit 0\nfi\n\n\n# Clean other platform if needed\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n\techo \"Platform \\\"$UFW_SDK_PLATFORM\\\" was cleaned recently. Cleaning \\\"$UFW_OTHER_PLATFORM\\\" as well\"\n\techo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\n\txcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\nfi\n\n\n# Make sure we are building from fresh binaries\n\nrm -rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\n\nif [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nfi\n";
+		};
+		A7B9B819142BACBC00F35DFE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\nexport UFW_MASTER_SCRIPT_RUNNING=1\n\n\n# Functions\n\n## List files in the specified directory, storing to the specified array.\n#\n# @param $1 The path to list\n# @param $2 The name of the array to fill\n#\n##\nlist_files ()\n{\n    filelist=$(ls \"$1\")\n    while read line\n    do\n        eval \"$2[\\${#$2[*]}]=\\\"\\$line\\\"\"\n    done <<< \"$filelist\"\n}\n\n\n# Sanity check\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n    echo \"Framework target \\\"${TARGET_NAME}\\\" had no source files to build from. Make sure your source files have the correct target membership\"\n    exit 1\nfi\n\n\n# Gather information\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n    UFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date.\n# We already checked the other platform in the prerun script.\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]\nthen\n    echo \"ONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM}: Skipping other platform build\"\nelse\n    # Make sure the other platform gets built\n    \n    echo \"Build other platform\"\n    \n    echo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    \n    \n    # Build the fat static library binary\n    \n    echo \"Create universal static library\"\n    \n    echo \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \n    echo mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nfi\n\n# Build embedded framework structure\n\necho \"Build Embedded Framework\"\n\necho rm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\necho mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\necho cp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\n\ndeclare -a UFW_FILE_LIST\nlist_files \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\" UFW_FILE_LIST\nfor filename in \"${UFW_FILE_LIST[@]}\"\ndo\n    if [[ \"${filename}\" != \"Info.plist\" ]] && [[ ! \"${filename}\" =~ .*\\.lproj$ ]]\n    then\n        echo ln -sf \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n        ln -sf \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n    fi\ndone\n\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]\nthen\n    # Replace other platform's framework with a copy of this one (so that both have the same universal binary)\n    \n    echo \"Copy from $UFW_SDK_PLATFORM to $UFW_OTHER_PLATFORM\"\n    \n    echo rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    echo cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7B9B815142BACBC00F35DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B9B83F142BAD3E00F35DFE /* DDAbstractDatabaseLogger.m in Sources */,
+				A7B9B841142BAD3E00F35DFE /* DDASLLogger.m in Sources */,
+				A7B9B843142BAD3E00F35DFE /* DDFileLogger.m in Sources */,
+				A7B9B845142BAD3E00F35DFE /* DDLog.m in Sources */,
+				A7B9B847142BAD3E00F35DFE /* DDTTYLogger.m in Sources */,
+				A7B9B849142BAD3E00F35DFE /* LoggerClient.m in Sources */,
+				A7B9B84C142BAD3E00F35DFE /* DDNSLoggerLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7B9B823142BACBC00F35DFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7B9B824142BACBC00F35DFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7B9B827142BACBC00F35DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A7B9B828142BACBC00F35DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7B9B82A142BACBC00F35DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaLumberjackNSLoggerFramework/CocoaLumberjackNSLoggerFramework-Prefix.pch";
+				INFOPLIST_FILE = "CocoaLumberjackNSLoggerFramework/CocoaLumberjackNSLoggerFramework-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		A7B9B82B142BACBC00F35DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaLumberjackNSLoggerFramework/CocoaLumberjackNSLoggerFramework-Prefix.pch";
+				INFOPLIST_FILE = "CocoaLumberjackNSLoggerFramework/CocoaLumberjackNSLoggerFramework-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7B9B812142BACBB00F35DFE /* Build configuration list for PBXProject "CocoaLumberjackNSLoggerFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B9B827142BACBC00F35DFE /* Debug */,
+				A7B9B828142BACBC00F35DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7B9B829142BACBC00F35DFE /* Build configuration list for PBXNativeTarget "CocoaLumberjackNSLoggerFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B9B82A142BACBC00F35DFE /* Debug */,
+				A7B9B82B142BACBC00F35DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7B9B80F142BACBB00F35DFE /* Project object */;
+}
