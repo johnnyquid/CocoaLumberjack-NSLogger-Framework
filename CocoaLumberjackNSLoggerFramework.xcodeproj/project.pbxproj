@@ -9,20 +9,20 @@
 /* Begin PBXBuildFile section */
 		A7B9B81F142BACBC00F35DFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B9B81E142BACBC00F35DFE /* Foundation.framework */; };
 		A7B9B825142BACBC00F35DFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7B9B823142BACBC00F35DFE /* InfoPlist.strings */; };
-		A7B9B83E142BAD3E00F35DFE /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B9B82D142BAD3E00F35DFE /* DDAbstractDatabaseLogger.h */; };
+		A7B9B83E142BAD3E00F35DFE /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B9B82D142BAD3E00F35DFE /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7B9B83F142BAD3E00F35DFE /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B9B82E142BAD3E00F35DFE /* DDAbstractDatabaseLogger.m */; };
-		A7B9B840142BAD3E00F35DFE /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B9B82F142BAD3E00F35DFE /* DDASLLogger.h */; };
+		A7B9B840142BAD3E00F35DFE /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B9B82F142BAD3E00F35DFE /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7B9B841142BAD3E00F35DFE /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B9B830142BAD3E00F35DFE /* DDASLLogger.m */; };
-		A7B9B842142BAD3E00F35DFE /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B9B831142BAD3E00F35DFE /* DDFileLogger.h */; };
+		A7B9B842142BAD3E00F35DFE /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B9B831142BAD3E00F35DFE /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7B9B843142BAD3E00F35DFE /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B9B832142BAD3E00F35DFE /* DDFileLogger.m */; };
-		A7B9B844142BAD3E00F35DFE /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B9B833142BAD3E00F35DFE /* DDLog.h */; };
+		A7B9B844142BAD3E00F35DFE /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B9B833142BAD3E00F35DFE /* DDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7B9B845142BAD3E00F35DFE /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B9B834142BAD3E00F35DFE /* DDLog.m */; };
-		A7B9B846142BAD3E00F35DFE /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B9B835142BAD3E00F35DFE /* DDTTYLogger.h */; };
+		A7B9B846142BAD3E00F35DFE /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B9B835142BAD3E00F35DFE /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7B9B847142BAD3E00F35DFE /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B9B836142BAD3E00F35DFE /* DDTTYLogger.m */; };
-		A7B9B848142BAD3E00F35DFE /* LoggerClient.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B9B838142BAD3E00F35DFE /* LoggerClient.h */; };
+		A7B9B848142BAD3E00F35DFE /* LoggerClient.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B9B838142BAD3E00F35DFE /* LoggerClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7B9B849142BAD3E00F35DFE /* LoggerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B9B839142BAD3E00F35DFE /* LoggerClient.m */; };
-		A7B9B84A142BAD3E00F35DFE /* LoggerCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B9B83A142BAD3E00F35DFE /* LoggerCommon.h */; };
-		A7B9B84B142BAD3E00F35DFE /* DDNSLoggerLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B9B83C142BAD3E00F35DFE /* DDNSLoggerLogger.h */; };
+		A7B9B84A142BAD3E00F35DFE /* LoggerCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B9B83A142BAD3E00F35DFE /* LoggerCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7B9B84B142BAD3E00F35DFE /* DDNSLoggerLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B9B83C142BAD3E00F35DFE /* DDNSLoggerLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7B9B84C142BAD3E00F35DFE /* DDNSLoggerLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B9B83D142BAD3E00F35DFE /* DDNSLoggerLogger.m */; };
 /* End PBXBuildFile section */
 
@@ -150,14 +150,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7B9B83E142BAD3E00F35DFE /* DDAbstractDatabaseLogger.h in Headers */,
-				A7B9B840142BAD3E00F35DFE /* DDASLLogger.h in Headers */,
-				A7B9B842142BAD3E00F35DFE /* DDFileLogger.h in Headers */,
-				A7B9B844142BAD3E00F35DFE /* DDLog.h in Headers */,
 				A7B9B846142BAD3E00F35DFE /* DDTTYLogger.h in Headers */,
+				A7B9B840142BAD3E00F35DFE /* DDASLLogger.h in Headers */,
+				A7B9B83E142BAD3E00F35DFE /* DDAbstractDatabaseLogger.h in Headers */,
+				A7B9B844142BAD3E00F35DFE /* DDLog.h in Headers */,
+				A7B9B84B142BAD3E00F35DFE /* DDNSLoggerLogger.h in Headers */,
 				A7B9B848142BAD3E00F35DFE /* LoggerClient.h in Headers */,
 				A7B9B84A142BAD3E00F35DFE /* LoggerCommon.h in Headers */,
-				A7B9B84B142BAD3E00F35DFE /* DDNSLoggerLogger.h in Headers */,
+				A7B9B842142BAD3E00F35DFE /* DDFileLogger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +364,7 @@
 				A7B9B82B142BACBC00F35DFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
